@@ -1,0 +1,33 @@
+.game-header {
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.content-parent {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.chess-board {
+
+}
+
+.square {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #fc8c84;
+}
+
+.dark {
+    background-color: #445588;
+}
+
+.light {
+    background-color: #cccccc;
+}
