@@ -1,18 +1,22 @@
-.game-header {
-    font-size: 20px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-}
-
-.content-parent {
+.game-title {
     display: flex;
-    flex-direction: row;
     align-content: center;
     justify-content: center;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: 600;
+    color: darkgray;
+    background-color: lightgray;
+    border-radius: 2px;
 }
 
 .chess-board {
-
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: lightblue;
+    width: 480px;
+    width: 480px;
 }
 
 .square {

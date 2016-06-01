@@ -7,6 +7,7 @@ export default function(state = board, action) {
         case actions.RESET_BOARD:
             return state.board;
         case actions.MOVE_PIECE:
+            console.log(state.board, action.from, action.to);
             return Object.assign({}, state.board, move(state.board, action.from, action.to));
         default:
             return state;

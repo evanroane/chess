@@ -4,10 +4,11 @@ import ChessBoard from './components/chess-board';
 const ChessApp = React.createClass({
     render () {
         return (
-            <div>
-                Hello world!
-                {this.props.name}
-                <ChessBoard />
+            <div id="app">
+                <div className="game-title">Chess</div>
+                <div>
+                    <ChessBoard {...this.props} />
+                </div>
             </div>
         );
     }
