@@ -6,7 +6,6 @@ import configureStore from './react/store/configure';
 import defaultBoard from './constants/default-board';
 
 const store = configureStore();
-console.log('log the store >>> ',store);
 
 ReactDOM.render(
     <Provider store={store}><App /></Provider>,

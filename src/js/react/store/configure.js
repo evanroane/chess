@@ -1,7 +1,10 @@
 import { createStore, compose } from 'redux';
 import rootReducer from '../reducers/index';
+import defaultBoard from '../../constants/default-board';
+
+
 const initState = {
-    game: {board: {}},
+    game: {board: defaultBoard},
     user: {isLoggedIn: true}
 };
 
